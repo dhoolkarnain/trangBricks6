@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="android-chrome-192x192.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf540676fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Trang Bricks</title>
+    <style>
+      .form1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 653px) {
+  .form1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.about-img {
+  margin: auto;
+  width: 50%;
+}
+
+.about-img img {
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+}
+
+.abouts {
+  width: 85%;
+  margin: auto;
+}
+
+.about-para p {
+  margin-top: 20px;
+}
+
+.our-strength li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: circle;
+}
+
+.our-quality p {
+  margin-top: 20px;
+}
+
+@media (max-width: 653px) {
+  .about-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 50%;
+    margin: auto;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-upper">
+        <a href="tel:+91 7909061019"><i class="fa-solid fa-phone"></i></a>
+        <a href="tel:+91 7992286389"
+          ><i class="fa-solid fa-mobile-screen"></i
+        ></a>
+        <a href="mailto: trangbricksltd@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/people/Flyash-Brick-Manufacturers/100078668187770/"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/flyash_machine_manufacturers/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </nav>
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar-lower">
+        <!-- LOGO -->
+        <img class="logo" src="android-chrome-192x192.png" alt="" />
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="products">
+              <a href="product.html">Products</a>
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li>
+                  <a href="product.html#flyash-brick"
+                    >Fly ash brick making machine</a
+                  >
+                </li>
+                <li><a href="product.html#paver">Paver making machine</a></li>
+                <li>
+                  <a href="product.html#brick-making"
+                    >Fully Automatic Fly Ash Bricks/Blocks/Paver Making
+                    Machine</a
+                  >
+                </li>
+                <li>
+                  <a href="product.html#brick-making"
+                    >Brick,Block and Paver Making Plant</a
+                  >
+                </li>
+                <li>
+                  <a href="product.html#fly-ash-brick">Batching Plant</a>
+                </li>
+                <li><a href="product.html#gypsum">Front End Stacker</a></li>
+                <li>
+                  <a href="product.html#other-products">Front End Loader</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="flyash.html">FlyAsh Technology</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div class="text-slide">
+        <p>
+          <i class="fa-solid fa-caravan"></i>EASY SERVICE AVAILABLE IN ALL OVER
+          INDIA.
+        </p>
+      </div>
+    </header>
+    <div class="whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=9142972384"
+        ><img src="/wapp.png" alt=""></i
+      ></a>
+    </div>
+    <section class="home">
+      <img class="mySlides" src="1.png" />
+      <img class="mySlides" src="5.png" />
+      <img class="mySlides" src="3.png" />
+      <img class="mySlides" src="4.png" />
+    </section>
+    <div class="enquiry-inner" style="width: 85%; margin: auto">
+      <h1><span>What are you </span>looking for?</h1>
+      <form class="form form1" action="POST">
+        <select name="flyAsh" id="flyAsh">
+          <option value="brick" selected>Fly Ash Bricks Making Machine</option>
+          <option value="paver">Paver Making Machine</option>
+          <option value="fully">
+            Fully Automatic Fly Ash Bricks Making Machine
+          </option>
+          <option value="block">Brick/Block/Paver Making Machine</option>
+          <option value="bathing">Bathing Plant</option>
+          <option value="front">Front End Stacker</option>
+          <option value="loader">Loader and Attachment</option>
+        </select>
+        <input placeholder="Your Name" type="text" />
+        <input placeholder="Your email" type="email" />
+        <input placeholder="Your Ph Number" type="number" />
+        <button>Enquire Now</button>
+      </form>
+    </div>
+    <div class="broucher">
+      <h1><span>Company</span>Broucher</h1>
+      <a style="width: 200px;" href="karmyog.pdf?file=/karmyog"
+        ><i class="fa-solid fa-file-pdf"></i>Download pdf</a
+      >
+    </div>
+    <section class="welcome-home">
+      <h1><span>Welcome To </span>Trang Bricks Pvt Ltd</h1>
+      <div class="welcome-para">
+        <p>
+          Trang Bricks Pvt Ltd, a well known brand of “Fly Ash Bricks Making
+          Machine” with the vision to provide the top notch quality products to
+          its customers, to gain goodwill by providing on time support to their
+          customers and to retain the most talented workforce by cultivating
+          their skills and by rewarding them for their achievement.
+        </p>
+        <p>
+          Trang Bricks Pvt Ltd have 800+ happy customers in Fly Ash Bricks
+          Making Machine all over India. Trang Bricks have been successfully
+          designing, manufacturing and exporting Fly Ash Bricks Making plants
+          (semi and fully automatic), AAC Plants (Autoclaved Aerated Concrete),
+          Concrete Block Making Plants (semi and fully automatic), Paver Block
+          Making Plants (semi and fully automatic), tractor Mounted Loader, Mini
+          Dumper, Dozer, Furnace Charger, Batching Plant and various
+          construction accessories throughout India and few other countries
+          outside India.
+        </p>
+      </div>
+
+      <div class="welcome-video">
+        <iframe
+          src="https://www.youtube.com/embed/0Fr-4yHFniU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+        <div class="welcome-video-link">
+          <a href="https://youtube.com/shorts/JJS8Wjy2v68?feature=share"
+            ><i class="fa-brands fa-youtube"></i> View All Product's Video</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="service">
+      <a class="eye" href="">
+        <i class="fa-solid fa-eye"></i>
+        <h3>Our Vision</h3>
+        <p>To become the leading manufacturing company and at be...</p>
+      </a>
+      <a class="bull" href="">
+        <i class="fa-solid fa-bullseye"></i>
+        <h3>Our Mission</h3>
+        <p>We strongly believe in continuous research for innovation.</p>
+      </a>
+      <a class="gear" href="">
+        <i class="fa-solid fa-gear"></i>
+        <h3>Performance</h3>
+        <p>
+          High level of expertise in engineering backed with years of experience
+          in this field.
+        </p>
+      </a>
+      <a class="check" href="">
+        <i class="fa-solid fa-square-check"></i>
+        <h3>Eco Friendly</h3>
+        <p>
+          Fly Ash Bricks saves agricultural land which is destroyed by making
+          clay or Red Bricks.
+        </p>
+      </a>
+    </section>
+    <section class="slider">
+      <h1><span>Our </span>Products</h1>
+      <div class="slides">
+        <div class="slide" id="slide-1">
+          <div class="dp">
+            <img src="1p.jpeg" />
+          </div>
+          <div class="slide-specification">
+            <h3>Manual Trolley</h3>
+            <ul>
+              <li>Capacity : 100 Kg</li>
+            </ul>
+          </div>
+        </div>
+        <div class="slide" id="slide-2">
+          <div class="dp">
+            <img src="2p.jpeg" />
+          </div>
+          <div class="slide-specification">
+            <h3>Hydraulic Trolley</h3>
+            <ul>
+              <li>Capacity : 700 Kg</li>
+            </ul>
+          </div>
+        </div>
+        <div class="slide" id="slide-3">
+          <div class="dp">
+            <img src="5p.jpeg" />
+          </div>
+          <div class="slide-specification">
+            <h3>Automatic Vibrator Machine</h3>
+            <ul>
+              <li>Production Capacity : 2000 to 5000</li>
+              <li>Machine Size : 10ft * 3ft, 10ft * 2.5ft</li>
+              <li>Motor Capacity : 2 HP</li>
+            </ul>
+          </div>
+        </div>
+        <div class="slide" id="slide-4">
+          <div class="dp">
+            <img src="3p.jpeg" />
+          </div>
+          <div class="slide-specification">
+            <h3>Colour Mixer (Rabadi)</h3>
+            <ul>
+              <li>Capacity : 250 kg per Batch</li>
+              <li>Power (Motor) : 2HP for Mfg.</li>
+              <li>
+                Manufacturing : Mixing of Raw Materials Cement Concrete Mixing.
+              </li>
+              <li>Mixing : By Heavy Hand Face Scrapers.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="slide" id="slide-5">
+          <div class="dp">
+            <img src="4p.jpeg" />
+          </div>
+          <div class="slide-specification">
+            <h3>Manual Trolley</h3>
+            <ul>
+              <li>Capacity : 500 Kg per Batch</li>
+              <li>Power (Motor): 5HP</li>
+              <li>
+                Manufacturing : Mixing of Raw Materials for Fly Ash Bricks and
+                Second Layer of Paver Blocks.
+              </li>
+              <li>Materials Charge : Manual or Conveyor</li>
+              <li>Discharge (Manual) : Bottom Door Opening</li>
+              <li>Mixing : By Har Blades and Faced Scrapers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="enquiry">
+      <div class="enquiry-inner">
+        <h1><span>Have </span>a Questions?</h1>
+        <p>What are you looking for?</p>
+        <form class="form" action="POST">
+          <select name="flyAsh" id="flyAsh">
+            <option value="brick" selected>
+              Fly Ash Bricks Making Machine
+            </option>
+            <option value="paver">Paver Making Machine</option>
+            <option value="fully">
+              Fully Automatic Fly Ash Bricks Making Machine
+            </option>
+            <option value="block">Brick/Block/Paver Making Machine</option>
+            <option value="bathing">Bathing Plant</option>
+            <option value="front">Front End Stacker</option>
+            <option value="loader">Loader and Attachment</option>
+          </select>
+          <input placeholder="Your Name" type="text" />
+          <input placeholder="Your email" type="email" />
+          <input placeholder="Your Ph Number" type="number" />
+          <button>Enquire Now</button>
+        </form>
+      </div>
+      <div class="client-review">
+        <h1><span>What </span>Client Says</h1>
+        <div class="says">
+          <p>
+            One of the well known industry of kutch. Trang Bricks has a well
+            equipped warehousing unit and efficient staff which enable it to
+            meet bulk orders on time with precision.
+          </p>
+          <img src="sufyan.jpg" alt="" />
+          <h4>Sufyan Ahmad Ansari</h4>
+        </div>
+        <div class="says">
+          <p>
+            Very best quality bricks .... I'll Suggest my Friends for the Trang
+            Bricks
+          </p>
+          <img src="saif.jpg" alt="" />
+          <h4>Saif Raza</h4>
+        </div>
+        <div class="says">
+          <p>
+            Actually I was searching for the dealer who can provide best bricks
+            for my my future home ... and I found your website.
+          </p>
+          <img src="faishal.jpg" alt="" />
+          <h4>Faishal Reyaz</h4>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="we-do">
+        <h1><span>What </span>We Do</h1>
+        <p>
+          We believe in continuous research and innovation. We strive to
+          increase our competitiveness by delivering high quality products
+          through agile production processes and by paying careful attention to
+          our clients needs.
+        </p>
+        <a href=""
+          ><i class="fa-regular fa-circle-check"></i> Best Engineering</a
+        >
+        <a href=""
+          ><i class="fa-regular fa-circle-check"></i> Affordable Price</a
+        >
+        <a href=""
+          ><i class="fa-regular fa-circle-check"></i> Energy & Utilities</a
+        >
+        <a href=""
+          ><i class="fa-regular fa-circle-check"></i> 100% Satisfied Customer</a
+        >
+        <a href=""
+          ><i class="fa-regular fa-circle-check"></i> Communication Services</a
+        >
+      </div>
+      <div class="broucher">
+        <h1><span>Company</span>Broucher</h1>
+        <img src="img-broucher.jpg" alt="" />
+        <a href="karmyog.pdf?file=/karmyog"
+          ><i class="fa-solid fa-file-pdf"></i>Download pdf</a
+        >
+      </div>
+      <div class="choose-us">
+        <h1><span>Why </span>Choose Us</h1>
+        <h3><i class="fa-regular fa-gem"></i><span>Best</span>Quality</h3>
+        <h3><i class="fa-regular fa-clock"></i><span>Time</span> Targets</h3>
+        <h3><i class="fa-regular fa-user"></i><span>Best</span>Support</h3>
+        <h3>
+          <i class="fa-solid fa-indian-rupee-sign"></i><span>Best </span> Price
+          Guaranteed
+        </h3>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-upper">
+        <div class="quick-link">
+          <h1><span>Quick </span>Links</h1>
+          <a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a>
+          <a href="about.html"
+            ><i class="fa-solid fa-angle-right"></i> About Us</a
+          >
+          <a href="product.html"
+            ><i class="fa-solid fa-angle-right"></i> Products</a
+          >
+          <a href="flyash.html"
+            ><i class="fa-solid fa-angle-right"></i> Fly Ash Technology</a
+          >
+          <a href="gallery.html"
+            ><i class="fa-solid fa-angle-right"></i> Gallery</a
+          >
+          <a href="contact.html"
+            ><i class="fa-solid fa-angle-right"></i> Contact Us</a
+          >
+          <div class="link">
+            <a
+              href="https://www.facebook.com/people/Flyash-Brick-Manufacturers/100078668187770/"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/flyash_machine_manufacturers/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="tel:+91 79090 61019"><i class="fa-solid fa-phone"></i></a>
+            <a href="tel:+91 7992286389"
+              ><i class="fa-solid fa-mobile-screen"></i
+            ></a>
+            <a href="mailto: trangbricksltd@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+          <div class="welcome-video-link">
+            <a href="https://youtube.com/shorts/JJS8Wjy2v68?feature=share"
+              ><i class="fa-brands fa-youtube"></i> View All Product's Video</a
+            >
+          </div>
+        </div>
+        <div class="our-product">
+          <h1><span>Our </span>Products</h1>
+          <a href="product.html#flyash-brick"
+            ><i class="fa-solid fa-angle-right"></i> Fly Ash Bricks Making
+            Machine</a
+          >
+          <a href="product.html#paver"
+            ><i class="fa-solid fa-angle-right"></i> Paver Making Machine</a
+          >
+          <a href="product.html#brick-making"
+            ><i class="fa-solid fa-angle-right"></i> Fully Automatic Fly Ash
+            Bricks/Blocks/Paver Making Machine</a
+          >
+          <a href="product.html#brick-making"
+            ><i class="fa-solid fa-angle-right"></i> Brick,Block and Paver
+            Making Plant</a
+          >
+          <a href="product.html#fly-ash-brick"
+            ><i class="fa-solid fa-angle-right"></i> Batching Plant</a
+          >
+          <a href="product.html#gypsum"
+            ><i class="fa-solid fa-angle-right"></i> Front End Stacker</a
+          >
+          <a href="product.html#other-products"
+            ><i class="fa-solid fa-angle-right"></i> Front End Loader</a
+          >
+        </div>
+        <div class="get-in-touch">
+          <h1><span>Get </span>in Touch</h1>
+          <a href="tel:+91 79090 61019"
+            ><i class="fa fa-phone"></i>+91 7909061019</a
+          >
+          <a href="tel:+91 7992286389"
+            ><i class="fa-solid fa-mobile-screen"></i>+91 7992286389</a
+          >
+          <a href="https://api.whatsapp.com/send?phone=9142972384"
+            ><i class="fa-brands fa-whatsapp"></i>+91 9142972384</a
+          >
+          <a href="mailto: trangbricksltd@gmail.com">
+            <i class="fa fa-envelope"></i>trangbricksltd@gmail.com</a
+          >
+          <a
+            ><i class="fa fa-map-marker"></i>Sahu Complex, 2nd Floor Pundag,
+            Argoda Bypass Near Sai Asra, Ranchi.
+          </a>
+          <a
+            ><i class="fa-solid fa-hotel"></i>Panchasar Road, near Gita Oil Mills Morbi, Rajkot-363641, Gujrat
+          </a>
+        </div>
+      </div>
+      <div class="footer-lower">
+        <p>Copyright © 2022 Trang Bricks All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- SCRIPT SECTION -->
+    <script>
+      var slideIndex = 0;
+      carousel1();
+      function carousel1() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {
+          slideIndex = 1;
+        }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel1, 2000);
+      }
+    </script>
+    <script>
+      var index = 0;
+      carousel();
+      function carousel() {
+        var j;
+        var y = document.getElementsByClassName("says");
+        for (j = 0; j < y.length; j++) {
+          y[j].style.display = "none";
+        }
+        index++;
+        if (index > y.length) {
+          index = 1;
+        }
+        y[index - 1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+  </body>
+</html>

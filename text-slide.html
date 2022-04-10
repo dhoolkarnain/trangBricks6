@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .text-slide {
+        overflow: hidden;
+        width: 100%;
+        border: 2px solid;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .text-slide p {
+        /* font-size: 1em; */
+        animation: marquee 12s linear infinite;
+        letter-spacing: 4px;
+        white-space: nowrap;
+      }
+
+      @keyframes marquee {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-slide">
+      <p>EASY SERVICE AVAILABLE IN JHARKHAND, ORISSA, BIHAR, CHHATTISGARH.</p>
+    </div>
+  </body>
+</html>
